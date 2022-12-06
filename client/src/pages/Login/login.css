@@ -1,0 +1,49 @@
+.Login{
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("https://c4.wallpaperflare.com/wallpaper/404/550/532/books-glasses-wallpaper-preview.jpg");
+    background-size: cover;
+    align-items: center;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginform {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.LoginButton:disabled{
+cursor: not-allowed;
+background-color: rgb(224, 182, 167);
+}
+.loginform > label{
+    margin: 10px 0;
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.LoginButton{
+    margin-top: 20px;
+    cursor: pointer; 
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.RegisterLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:goldenrod;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: #000;
+    border-radius: 10px;
+}

@@ -1,0 +1,37 @@
+.blogPost{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:rgb(184, 169, 118);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    background: url("https://cdn.wallpapersafari.com/59/53/qQFIsx.jpg");
+
+}
+.h4{
+    
+}
+.h2{
+    color: rgb(240, 21, 21);
+}
+.c{
+    color: rgb(180, 130, 36);
+}
+.t{
+    color: rgb(234, 0, 255);
+}
+.p{
+    color: rgb(33, 168, 246);
+}
+.img{
+    color: rgb(138, 46, 94);
+}
+.j{
+    color: rgb(11, 98, 120);
+}
+.y{
+    color: rgb(29, 51, 159);
+}

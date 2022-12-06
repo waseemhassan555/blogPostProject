@@ -1,0 +1,38 @@
+.h1{
+    align-items: center;
+    justify-content: center;
+     height: calc(50vh);
+     display: flex;
+     color: white;
+
+}
+.h2{
+    justify-content: center;
+    display: flex;
+    color: rgb(241, 231, 231);
+    margin-right: 5px;
+
+
+}
+.img{
+    background: url("https://cdn.fansshare.com/image/computerbackgrounds/high-resolution-black-windows-desktop-wallpaper-hd-full-size-windows-computer-wallpaper-windows-1055823756.jpg");
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    background-size: cover;
+    flex-direction: column;
+    margin-left: 2px;
+    
+}
+.form-control{margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2px;
+}
+.row{
+    margin-left: 190px;
+}
+.text-center text-md-left{
+    margin-left: 40px;
+}

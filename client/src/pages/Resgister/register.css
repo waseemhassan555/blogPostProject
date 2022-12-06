@@ -1,0 +1,46 @@
+.register{
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("https://ladyjabberwocky.files.wordpress.com/2022/02/writing-desk_e8vatiygaf.jpg");
+    background-size: cover;
+    align-items: center;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerform {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerform > label{
+    margin: 10px 0;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer; 
+    background-color:orangered;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerButtonLogin{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:orange;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: #000;
+    border-radius: 10px;
+}
